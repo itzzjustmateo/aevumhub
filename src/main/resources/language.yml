@@ -1,0 +1,49 @@
+# AevumLobby Language File
+
+prefix: "<gradient:#ff6b6b:#ffd93d>[AevumLobby]</gradient> "
+
+messages:
+  spawn-set: "<green>Spawn has been set successfully!"
+  spawn-teleport: "<green>Teleporting to spawn..."
+  reload-success: "<green>Configuration reloaded successfully!"
+  reload-failed: "<red>Failed to reload configuration. Check console for errors."
+  visibility-enabled: "<green>Players are now visible!"
+  visibility-disabled: "<gray>Players are now hidden!"
+  hub-teleport: "<green>Teleporting to hub..."
+  lobby-teleport: "<green>Teleporting to lobby..."
+
+errors:
+  no-permission: "<red>You don't have permission to use this command."
+  spawn-not-set: "<red>Spawn is not set for this world."
+  player-not-found: "<red>Player not found."
+  invalid-arguments: "<red>Invalid arguments. Usage: {usage}"
+  service-unavailable: "<red>This service is currently unavailable."
+  player-only: "<red>This command can only be used by players."
+
+placeholders:
+  online: "{online_players}"
+  max: "{max_players}"
+  rank: "{player_rank}"
+  world: "{world_name}"
+  player: "{player_name}"
+
+info:
+  server-info:
+    - ""
+    - "<gradient:#ff6b6b:#ffd93d>Server Information</gradient>"
+    - ""
+    - "<gray>Server: <white>{server_name}</white>"
+    - "<gray>Players: <white>{online}/{max}</white>"
+    - "<gray>Version: <white>{version}</white>"
+    - ""
+
+  social-media:
+    - ""
+    - "<gradient:#ff6b6b:#ffd93d>Social Media</gradient>"
+    - ""
+    - "<aqua>Website: <white>{website}</white>"
+    - "<aqua>Discord: <white>{discord}</white>"
+    - "<aqua>YouTube: <white>{youtube}</white>"
+    - "<aqua>TikTok: <white>{tiktok}</white>"
+    - "<aqua>Twitch: <white>{twitch}</white>"
+    - ""

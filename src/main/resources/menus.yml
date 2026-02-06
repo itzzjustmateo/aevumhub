@@ -1,0 +1,82 @@
+# AevumLobby Menu Configuration
+
+menus:
+  profile:
+    title: "<gradient:#ff6b6b:#ffd93d>Your Profile</gradient>"
+    size: 27
+    items:
+      stats:
+        slot: 11
+        material: "DIAMOND"
+        name: "<aqua>Statistics</aqua>"
+        lore:
+          - "<gray>View your statistics"
+          - ""
+          - "<yellow>Click to open!"
+        action: "NONE"
+
+      settings:
+        slot: 13
+        material: "COMPARATOR"
+        name: "<yellow>Settings</yellow>"
+        lore:
+          - "<gray>Configure your preferences"
+          - ""
+          - "<yellow>Click to open!"
+        action: "NONE"
+
+      cosmetics:
+        slot: 15
+        material: "ARMOR_STAND"
+        name: "<light_purple>Cosmetics</light_purple>"
+        lore:
+          - "<gray>View and equip cosmetics"
+          - ""
+          - "<yellow>Click to open!"
+        action: "NONE"
+
+      close:
+        slot: 22
+        material: "BARRIER"
+        name: "<red>Close</red>"
+        lore:
+          - "<gray>Close this menu"
+        action: "CLOSE"
+
+  navigator:
+    title: "<gradient:#4facfe:#00f2fe>Server Navigator</gradient>"
+    size: 27
+    items:
+      skyblock:
+        slot: 11
+        material: "GRASS_BLOCK"
+        name: "<green>SkyBlock</green>"
+        lore:
+          - "<gray>Custom SkyBlock experience"
+          - ""
+          - "<aqua>Players: <white>0</white>"
+          - ""
+          - "<green>Click to join!"
+        action: "SERVER"
+        server: "skyblock"
+
+      survival:
+        slot: 13
+        material: "DIAMOND_PICKAXE"
+        name: "<yellow>Survival</yellow>"
+        lore:
+          - "<gray>Vanilla survival with friends"
+          - ""
+          - "<aqua>Players: <white>0</white>"
+          - ""
+          - "<green>Click to join!"
+        action: "SERVER"
+        server: "survival"
+
+      close:
+        slot: 22
+        material: "BARRIER"
+        name: "<red>Close</red>"
+        lore:
+          - "<gray>Close this menu"
+        action: "CLOSE"

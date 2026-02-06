@@ -1,0 +1,108 @@
+# AevumLobby Configuration File
+# Full documentation: https://github.com/AevumMC/AevumLobby
+
+general:
+  plugin-name: "AevumMC"
+  debug-mode: false
+  language: "en_US"
+
+spawn:
+  enabled: true
+  teleport-on-join: true
+  void-rescue-enabled: true
+  void-rescue-y-level: -64
+  teleport-delay: 0
+
+protection:
+  enabled: true
+  disable-damage: true
+  disable-hunger: true
+  disable-block-break: true
+  disable-block-place: true
+  disable-item-drop: true
+  disable-item-pickup: true
+  disable-inventory-click: false
+  bypass-permission: "aevumlobby.bypass"
+
+hotbar:
+  enabled: true
+  give-on-join: true
+  give-on-respawn: true
+  clear-inventory: true
+  items:
+    profile:
+      enabled: true
+      slot: 0
+      material: "PLAYER_HEAD"
+      name: "<gradient:#ff6b6b:#ffd93d>Profile</gradient>"
+      lore:
+        - "<gray>Click to view your profile"
+    navigator:
+      enabled: true
+      slot: 4
+      material: "COMPASS"
+      name: "<gradient:#4facfe:#00f2fe>Server Navigator</gradient>"
+      lore:
+        - "<gray>Click to open server navigator"
+    visibility:
+      enabled: true
+      slot: 8
+      material: "LIME_DYE"
+      name: "<green>Players Visible</green>"
+      lore:
+        - "<gray>Click to toggle player visibility"
+
+ui:
+  enabled: true
+  update-interval: 20
+  close-on-move: false
+
+visibility:
+  enabled: true
+  default-state: "VISIBLE"
+  save-preferences: true
+  bypass-permission: "aevumlobby.staff"
+
+scoreboard:
+  enabled: true
+  update-interval: 20
+  title: "<gradient:#ff6b6b:#ffd93d>AevumMC</gradient>"
+  lines:
+    - ""
+    - "<gray>Players: <white>{online}</white>"
+    - ""
+    - "<yellow>play.aevummc.net</yellow>"
+
+navigator:
+  enabled: true
+  title: "<gradient:#4facfe:#00f2fe>Server Navigator</gradient>"
+  categories:
+    - name: "Main Games"
+      icon: "DIAMOND_SWORD"
+      servers:
+        - name: "SkyBlock"
+          material: "GRASS_BLOCK"
+          server: "skyblock"
+          lore:
+            - "<gray>Custom SkyBlock experience"
+            - ""
+            - "<green>Click to join!"
+        - name: "Survival"
+          material: "DIAMOND_PICKAXE"
+          server: "survival"
+          lore:
+            - "<gray>Vanilla survival with friends"
+            - ""
+            - "<green>Click to join!"
+
+socials:
+  website: "https://aevummc.net"
+  discord: "https://discord.gg/aevummc"
+  youtube: "https://youtube.com/@aevummc"
+  tiktok: "https://tiktok.com/@aevummc"
+  twitch: "https://twitch.tv/aevummc"
+
+performance:
+  async-file-operations: true
+  cache-player-data: true
+  cache-ttl-seconds: 300

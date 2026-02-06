@@ -1,0 +1,87 @@
+name: AevumLobby
+version: 1.0.0
+main: me.aevum.aevumlobby.AevumLobbyPlugin
+api-version: '1.21'
+author: AevumMC
+description: Production-grade Minecraft Hub/Lobby core plugin
+website: https://aevummc.net
+
+commands:
+  aevumlobby:
+    description: Main plugin command
+    usage: /aevumlobby <reload|debug|status>
+    permission: aevumlobby.admin
+    aliases: [al, alobby]
+
+  setlobby:
+    description: Set the lobby spawn point
+    usage: /setlobby
+    permission: aevumlobby.admin
+
+  sethub:
+    description: Set the hub spawn point
+    usage: /sethub
+    permission: aevumlobby.admin
+
+  hub:
+    description: Teleport to hub
+    usage: /hub
+    permission: aevumlobby.use
+
+  lobby:
+    description: Teleport to lobby
+    usage: /lobby
+    permission: aevumlobby.use
+
+  info:
+    description: Display server information
+    usage: /info
+    permission: aevumlobby.use
+    aliases: [serverinfo, hubinfo, lobbyinfo]
+
+  socials:
+    description: Display social media links
+    usage: /socials
+    permission: aevumlobby.use
+    aliases: [social, links]
+
+permissions:
+  aevumlobby.*:
+    description: Grants all AevumLobby permissions
+    children:
+      aevumlobby.use: true
+      aevumlobby.admin: true
+      aevumlobby.bypass: true
+      aevumlobby.staff: true
+
+  aevumlobby.use:
+    description: Basic lobby features
+    default: true
+
+  aevumlobby.admin:
+    description: Administrative commands
+    default: op
+    children:
+      aevumlobby.reload: true
+      aevumlobby.debug: true
+      aevumlobby.npc: true
+
+  aevumlobby.reload:
+    description: Reload configuration
+    default: op
+
+  aevumlobby.debug:
+    description: View debug information
+    default: op
+
+  aevumlobby.bypass:
+    description: Bypass protection rules
+    default: op
+
+  aevumlobby.staff:
+    description: Staff-only features
+    default: op
+
+  aevumlobby.npc:
+    description: Manage NPCs
+    default: op
