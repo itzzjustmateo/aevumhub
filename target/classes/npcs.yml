@@ -1,0 +1,9 @@
+# NPC Data Configuration
+# Format:
+# npcs:
+#   <name>:
+#     location: <world>,<x>,<y>,<z>,<yaw>,<pitch>
+#     skin:
+#       texture: <texture>
+#       signature: <signature>
+npcs: {}

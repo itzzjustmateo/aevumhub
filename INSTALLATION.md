@@ -74,12 +74,12 @@ ls target/AevumLobby-*.jar
 
 3. **Copy the JAR file**
    ```bash
-   cp AevumLobby-1.0.0.jar /path/to/server/plugins/
+   cp AevumLobby-1.0.3.jar /path/to/server/plugins/
    ```
 
 4. **Set permissions** (Linux/Mac only)
    ```bash
-   chmod 644 /path/to/server/plugins/AevumLobby-1.0.0.jar
+   chmod 644 /path/to/server/plugins/AevumLobby-1.0.3.jar
    ```
 
 ### Step 3: Start the Server
@@ -92,7 +92,7 @@ ls target/AevumLobby-*.jar
 2. **Watch the console** for AevumLobby initialization:
    ```
    [AevumLobby] ========================================
-   [AevumLobby]      AevumLobby v1.0.0
+   [AevumLobby]      AevumLobby v1.0.3
    [AevumLobby]      Bootstrapping plugin...
    [AevumLobby] ========================================
    [AevumLobby] Validating environment...

@@ -250,7 +250,7 @@ mvn clean package
 ```
 
 ### Output
-- **JAR Location**: `target/AevumLobby-1.0.0.jar`
+- **JAR Location**: `target/AevumLobby-1.0.3.jar`
 - **Size**: ~500KB (with shaded dependencies)
 - **Relocations**: Gson and Adventure properly shaded
 
@@ -364,4 +364,4 @@ AevumLobby is a complete, production-ready Minecraft lobby plugin that meets all
 ---
 
 **Built with ❤️ for AevumMC**
-*Version 1.0.0 - Production Release*
+- **Version**: 1.0.5 - Production Release*

@@ -4,7 +4,7 @@
 
 AevumLobby is a fully self-coded, free, open-source hub and player-experience control system, comparable in scope and quality to PhoenixLobby, but redesigned for long-term maintainability, modularity, scalability, and full ownership.
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![Version](https://img.shields.io/badge/version-1.0.3-blue.svg)
 ![Minecraft](https://img.shields.io/badge/minecraft-1.21.4-green.svg)
 ![Java](https://img.shields.io/badge/java-21-orange.svg)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)
@@ -40,7 +40,7 @@ AevumLobby is a fully self-coded, free, open-source hub and player-experience co
 
 ## Requirements
 
-- **Minecraft**: Paper 1.21.4 or newer
+- **Minecraft**: Paper 1.21.11 or newer
 - **Java**: Version 21 or higher
 - **Server Software**: Paper, Purpur, or compatible forks
 
@@ -50,7 +50,7 @@ AevumLobby is a fully self-coded, free, open-source hub and player-experience co
 
 ### Quick Start
 
-1. Download the latest `AevumLobby-1.0.0.jar` from releases
+1. Download the latest `AevumLobby-1.0.3.jar` from releases
 2. Place the JAR file in your server's `plugins` folder
 3. Start or restart your server
 4. Configure the plugin in `plugins/AevumLobby/`
@@ -59,13 +59,13 @@ AevumLobby is a fully self-coded, free, open-source hub and player-experience co
 
 ```bash
 # Clone the repository
-git clone https://github.com/AevumMC/AevumLobby.git
+git clone https://github.com/itzzjustmateo/aevumhub.git
 cd AevumLobby
 
 # Build with Maven
 mvn clean package
 
-# The compiled JAR will be in target/AevumLobby-1.0.0.jar
+# The compiled JAR will be in target/AevumLobby-1.0.3.jar
 ```
 
 ---
@@ -368,7 +368,8 @@ Follow the existing code style and ensure all tests pass.
 
 ## Credits
 
-**Developed by**: AevumMC Development Team
+**Developed by**: DevFlare
+**Version**: `1.0.5` (Production)
 
 **Built with**:
 - Paper API 1.21.4

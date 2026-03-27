@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>me.aevum</groupId>
+    <groupId>de.devflare</groupId>
     <artifactId>aevumlobby</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.5</version>
     <packaging>jar</packaging>
 
     <name>AevumLobby</name>
@@ -59,12 +59,7 @@
             <version>${gson.version}</version>
         </dependency>
 
-        <!-- Adventure Platform Bukkit -->
-        <dependency>
-            <groupId>net.kyori</groupId>
-            <artifactId>adventure-platform-bukkit</artifactId>
-            <version>${adventure.version}</version>
-        </dependency>
+
     </dependencies>
 
     <build>
@@ -113,13 +108,9 @@
                                 <!-- Relocate Gson -->
                                 <relocation>
                                     <pattern>com.google.gson</pattern>
-                                    <shadedPattern>me.aevum.aevumlobby.libs.gson</shadedPattern>
+                                    <shadedPattern>de.devflare.aevumlobby.libs.gson</shadedPattern>
                                 </relocation>
-                                <!-- Relocate Adventure -->
-                                <relocation>
-                                    <pattern>net.kyori</pattern>
-                                    <shadedPattern>me.aevum.aevumlobby.libs.kyori</shadedPattern>
-                                </relocation>
+
                             </relocations>
                             <filters>
                                 <filter>

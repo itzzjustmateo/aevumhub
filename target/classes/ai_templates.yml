@@ -1,0 +1,54 @@
+# AevumLobby AI Template System
+# Used for generating dynamic, natural-sounding messages
+
+templates:
+  welcome:
+    - "Welcome to {server}!"
+    - "Hey there! Welcome to {server}!"
+    - "Greetings! You've joined {server}!"
+    - "Hello and welcome to {server}!"
+
+  goodbye:
+    - "See you later!"
+    - "Thanks for playing!"
+    - "Goodbye! Come back soon!"
+    - "Until next time!"
+    - "Have a great day!"
+
+  server_join:
+    - "Connecting you to {server}..."
+    - "Sending you to {server}..."
+    - "Teleporting to {server}..."
+
+  error_generic:
+    - "Oops! Something went wrong."
+    - "An error occurred. Please try again."
+    - "We encountered an issue. Please contact staff if this persists."
+
+grammar:
+  greetings:
+    - "Hello"
+    - "Hey"
+    - "Hi"
+    - "Greetings"
+    - "Welcome"
+
+  farewells:
+    - "Goodbye"
+    - "See you"
+    - "Bye"
+    - "Farewell"
+    - "Take care"
+
+  actions:
+    - "Click"
+    - "Select"
+    - "Choose"
+    - "Pick"
+
+  descriptors:
+    - "amazing"
+    - "awesome"
+    - "great"
+    - "fantastic"
+    - "wonderful"
